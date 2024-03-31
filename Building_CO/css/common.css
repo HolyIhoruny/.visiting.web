@@ -1,0 +1,105 @@
+.container {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.txt {
+  font-size: 1.5em;
+  font-weight: 500;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.divider {
+  height: 4px;
+  background-color: #e78200;
+}
+
+.title {
+  margin-top: 9%;
+  margin-bottom: 3%;
+  text-align: center;
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000;
+  font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.h1,
+h1 {
+  font-size: calc(2.275em + 1.5vw);
+}
+
+.h2,
+h2 {
+  font-size: calc(1.825em + 0.9vw);
+}
+
+.h3,
+h3 {
+  font-size: calc(1.3em + 0.6vw);
+}
+
+.h4,
+h4 {
+  font-size: calc(1.275em + 0.3vw);
+}
+
+.h5,
+h5 {
+  font-size: 1.25rem;
+}
+
+.h6,
+h6 {
+  font-size: 1rem;
+}
+
+sub,
+sup {
+  font-size: 0.75em;
+  line-height: 0;
+  position: relative;
+  vertical-align: initial;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0a58ca;
+  text-decoration: underline;
+}
+
+a:not([href]):not([class]),
+a:not([href]):not([class]):hover {
+  color: inherit;
+  text-decoration: none;
+}
